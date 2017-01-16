@@ -164,7 +164,7 @@ void sigtstp_msg() {
 	fflush(fp);
 }
 
-/* Check of the string is empty */
+/* Check if the string is empty */
 bool check_empty_string(char *character) {
 	
 	for (; *character != '\0'; character++) 
